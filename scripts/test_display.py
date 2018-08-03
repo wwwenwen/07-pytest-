@@ -15,8 +15,3 @@ class TestDisplay:
 
         # 声明我们的driver对象
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
-
-    def test_search_english(self):
-        self.driver.find_element_by_xpath("//*[contains(@text,'显示')]").click()
-        self.driver.find_element_by_id("com.android.settings:id/search").click()
-        self.driver.find_element_by_id("android:id/search_src_text").send_keys("abc")
