@@ -1,0 +1,5 @@
+[
+  "scripts/test_display.py::TestDisplay::()::test_search_english",
+  "scripts/test_more.py::TestMore::()::test_search_number",
+  "scripts/test_more.py::TestMore::()::test_search_chinese"
+]
